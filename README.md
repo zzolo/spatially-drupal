@@ -5,4 +5,4 @@ geospatial in Drupal.
 
 ## Technologies Used
 
-* [Shower](https://github.com/pepelsbey/shower)
+* [Deck.js](http://imakewebthings.com/deck.js/)

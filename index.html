@@ -1,13 +1,49 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->  <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-  <title>Spatially Drupal</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=1274, user-scalable=no">
-  <link rel="stylesheet" href="libraries/shower/themes/ribbon/styles/style.css">
-  <link rel="stylesheet" href="css/style.css">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>Spatially Drupal</title>
+	
+	<meta name="viewport" content="width=1024, user-scalable=no">
+	
+	<!-- Core and extension CSS files -->
+	<link rel="stylesheet" href="libraries/deck.js/core/deck.core.css">
+	<link rel="stylesheet" href="libraries/deck.js/extensions/goto/deck.goto.css">
+	<link rel="stylesheet" href="libraries/deck.js/extensions/menu/deck.menu.css">
+	<link rel="stylesheet" href="libraries/deck.js/extensions/navigation/deck.navigation.css">
+	<link rel="stylesheet" href="libraries/deck.js/extensions/status/deck.status.css">
+	<link rel="stylesheet" href="libraries/deck.js/extensions/hash/deck.hash.css">
+	<link rel="stylesheet" href="libraries/deck.js/extensions/scale/deck.scale.css">
+	
+	<!-- Style theme. More available in /themes/style/ or create your own. -->
+	<link rel="stylesheet" href="libraries/deck.js/themes/style/swiss.css">
+	
+	<!-- Transition theme. More available in /themes/transition/ or create your own. -->
+	<link rel="stylesheet" href="libraries/deck.js/themes/transition/horizontal-slide.css">
+	
+	<script src="libraries/deck.js/modernizr.custom.js"></script>
 </head>
-<body class="list">
+
+<body class="deck-container">
+  <section class="slide intro" id="title-slide">
+    <div class="inner">
+      <h1>Spatially Drupal</h1>
+    </div>
+  </section>
+  
+  <section class="slide" id="introduction">
+    <div class="inner">
+      <h1>Alan Pala(zzolo)</h1>
+    </div>
+  </section>
+
+<!--
+<body class="deck-container">
   <header class="caption">
     <h1>Spatially Drupal</h1>
     <p>Alan Palazzolo</p>
@@ -23,12 +59,13 @@
       </section>
     </div>
   </div>
+  
   <div class="slide cover w image-slide" id="views">
     <div>
       <section>
         <header>
           <h2>Views are my own</h2>
-        </header>
+        </header> 
         <figure>
           <img src="images/world-5489515269_7ab456b650_o.jpg" alt="">
           <figcaption>Image courtesy of <a href="https://secure.flickr.com/photos/normanbleventhalmapcenter/5489515269/">Norman B. Leventhal Map Center at the BPL</a></figcaption>
@@ -36,6 +73,32 @@
       </section>
     </div>
   </div>
+  
+  <div class="slide" id="what-is">
+    <div>
+      <section>
+        <header>
+          <h2>What is Geospatial?</h2>
+        </header>
+      </section>
+    </div>
+  </div>
+  
+  <div class="slide cover w image-slide" id="where">
+    <div>
+      <section>
+        <header>
+          <h2>Where something is.</h2>
+        </header>
+      </section>
+        <figure>
+          <img src="images/x-marks-5695292694_8343a83f77_b.jpg" alt="">
+          <figcaption>Image courtesy of <a href="http://www.flickr.com/photos/mecookie/5695292694/sizes/l/in/photostream/">mecookie</a></figcaption>
+        </figure>
+      </section>
+    </div>
+  </div>
+  
   <div class="slide" id="location">
     <div>
       <section>
@@ -47,6 +110,7 @@
       </section>
     </div>
   </div>
+  
   <div class="slide" id="gmap">
     <div>
       <section>
@@ -58,8 +122,29 @@
       </section>
     </div>
   </div>
-  
-  <div class="progress"><div></div></div>
-  <script src="libraries/shower/scripts/script.js"></script>
+  -->
+
+<p class="deck-status">
+	<span class="deck-status-current"></span> / <span class="deck-status-total"></span>
+</p>
+<a href="." title="Permalink to this slide" class="deck-permalink">#</a>
+
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/deck.js/jquery-1.6.4.min.js"><\/script>')</script>
+
+<!-- Deck Core and extensions -->
+<script src="libraries/deck.js/core/deck.core.js"></script>
+<script src="libraries/deck.js/extensions/menu/deck.menu.js"></script>
+<script src="libraries/deck.js/extensions/goto/deck.goto.js"></script>
+<script src="libraries/deck.js/extensions/status/deck.status.js"></script>
+<script src="libraries/deck.js/extensions/navigation/deck.navigation.js"></script>
+<script src="libraries/deck.js/extensions/hash/deck.hash.js"></script>
+<script src="libraries/deck.js/extensions/scale/deck.scale.js"></script>
+
+<!-- Specific to this page -->
+<script src="js/spatially.js"></script>
+
 </body>
-</html
+</html>
