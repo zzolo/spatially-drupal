@@ -1,25 +1,6 @@
 /**
- * Custom styles for Spatially Drupal shower slides.
+ * Custom styles for Spatially Drupal slides.
  */
-.slide.cover.image-slide h2 {
-  color: #FFFFFF;
-}
-
-
-.slide.image-slide figure figcaption {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: auto;
-  text-align: right;
-  background-color: rgba(5, 5, 5, 0.6);
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  padding: 6px 10px;
-  color: #C2C2C2;
-  font-size: 65%;
-  margin-right: 10px;
-}
-.slide.image-slide figure figcaption a {
-  color: #C2C2C2;
+.slide img {
+  margin-top: 1em;
 }
