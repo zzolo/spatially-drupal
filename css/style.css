@@ -1,6 +1,20 @@
 /**
  * Custom styles for Spatially Drupal slides.
  */
-.slide img {
-  margin-top: 1em;
+.slide-image img {
+  padding-top: 2em;
+}
+.slide-image-small img {
+  padding-top: 6em;
+}
+
+.deck-container .slide-image h1 {
+  background-color: rgba(22, 22, 22, 0.4);
+  color: #FFFFFF;
+  top: 0;
+  padding-top: 1em;
+}
+
+h1.small-title {
+  font-size: 3.5em;
 }
