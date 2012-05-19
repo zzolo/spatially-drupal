@@ -18,3 +18,31 @@
 h1.small-title {
   font-size: 3.5em;
 }
+
+.deck-container .slide.slide-section-1 {
+  background-color: #99B3FF;
+}
+.deck-container .slide.slide-section-2 {
+  background-color: #E699FF;
+}
+.deck-container .slide.slide-section-3 {
+  background-color: #FFD65C;
+}
+.deck-container .slide.slide-section-4 {
+  background-color: #99FFB3;
+}
+.deck-container .slide.slide-section-5 {
+  background-color: #85FF5C;
+}
+.deck-container .slide.slide-section-6 {
+  background-color: #A8FFBE;
+}
+.deck-container .slide.slide-section-7 {
+  background-color: #E0A800;
+}
+.deck-container .slide.slide-section-8 {
+  background-color: #E0FF85;
+}
+.deck-container .slide.slide-section-9 {
+  background-color: #85FFA3;
+}
